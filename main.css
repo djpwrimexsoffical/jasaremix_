@@ -1,0 +1,104 @@
+/* Responsif untuk layar yang lebih kecil */
+@media (max-width: 600px) {
+  header {
+    padding: 10px;}
+  }
+/* Gaya umum */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Gaya header */
+header {
+    background-color: #ffd500;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Gaya navigasi */
+  nav {
+    background-color: #282c12;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    
+  }
+  nav ul li a:hover{
+    color: #ffd500;
+    background-color: #333;
+    padding: 8px;
+    border-radius: 8px;
+  }
+  /* Gaya section */
+  section {
+    padding: 20px;
+  }
+  
+  /* Gaya footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  .mar {
+    background-color: orange;
+    color: red;
+    font-size: 10px;
+    padding: 3px;
+    width: 235px;
+  }
+  .pt {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 3px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .we {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 10px;
+  }
+  .we2 {
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 0px;
+    text-align: justify;
+    padding: 20px;
+  }
+  .remix {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+    font-size: 15px;
+    padding: 30px;
+  }
+  .remix2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+    font-size: 10px;
+    padding: 20px;
+    text-align: justify;
+    padding-top: 0px;
+  }
